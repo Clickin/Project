@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* 사이드바 스타일 */
+
+.over-table {
+    overflow-x:auto;
+    min-width:1000px;
+}
+
+
+#sidebar-wrapper {
+    position: fixed;
+    margin-right : 250px;
+    width: 250px;
+    height: 100%;
+    background: #ffc107 !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow : 5px 7px 25px #999;
+}
+
+.sidebar-nav {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-subnav {
+    width: 250px;
+    margin-left: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 1.5em;
+    line-height: 4em;
+}
+
+.sidebar-nav li li {
+    text-indent: 1.5em;
+    line-height: 2em;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size : 20px;
+}
+
+.sidebar-nav li li a {
+    color: white !important;
+    font-size : 15px;
+}
+
+.sidebar-nav .nav-menu a:hover, .sidebar-brand:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav > .sidebar-brand {
+    font-size: 25px;
+    font-weight: 900 !important;
+    padding : 30px 0 30px 0;
+}
+
+.nav-icon {
+    text-indent : 0;
+    color : white;
+    vertical-align: middle;
+    padding-bottom : 3px;
+    margin-right:5px;
+}
+
+.bottom-border {
+    border-bottom:solid 3px white;
+}
+
+.admin-box {
+    margin-left : 250px;
+    height : 100%;
+    padding : 50px 50px 50px 50px;
+    background-color: white;
+}
+
+.nav-link {
+    background-color: white !important;
+    color : black !important;
+}
+
+.nav-link.active {
+    background-color: #ffc107 !important;
+    color : white !important;
+    font-weight: bold;
+}
+.ok_btn {
+    width:20px;
+    height:20px;
+}
+.admin-submit{
+    background: #ffc107;
+    color: white;
+    height:48px;
+    width: 100px;
+    border : none !important;
+    border-radius: 5px;
+}
+.admin-submit:hover{
+    opacity: 0.7;
+}
+.tooltip {
+    position: relative;
+    display: block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 350px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px;
+    top: -5px;
+    left: 90%;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 2147483640;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
